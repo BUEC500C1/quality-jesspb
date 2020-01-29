@@ -31,4 +31,4 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pytest hw1.py
+        pytest tests.py
