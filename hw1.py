@@ -9,7 +9,7 @@ def getRoman(arabic):
     rom = ["I", "IV", "V", "IX", "X", "XL",
            "L", "XC", "C", "CD", "D", "CM", "M"]
 
-    i = (len(arabic)) - 1
+    i = (len(ara)) - 1
     roman = ""
 
     while arabic:
