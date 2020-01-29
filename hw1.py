@@ -17,7 +17,7 @@ def getRoman(arabic):
         arabic %= ara[i]
 
         while div:
-            roman = rom[i] + roman
+            roman = roman + rom[i]
             div -= 1
         i -= 1
 
