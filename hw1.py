@@ -8,6 +8,11 @@ def getRoman(arabic):
            100, 400, 500, 900, 1000]
     rom = ["I", "IV", "V", "IX", "X", "XL",
            "L", "XC", "C", "CD", "D", "CM", "M"]
+    err = ''
+
+    if type(arabic)!= int:
+        print("INVALID: Not an integer")
+        return err
 
     i = (len(ara)) - 1
     roman = ""
